@@ -1,5 +1,5 @@
 # Chat-App for DS Lab
-Simple chat app, made with Flask
+Simple chat app, made with Flask  
 Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 
 ### rs.status() - first output
@@ -62,7 +62,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 		{
 			"_id" : 0,
 			"name" : "mongo1:27017",
-			"ip" : "172.31.41.232",
+			"ip" : "172.31.38.169",
 			"health" : 1,
 			"state" : 1,
 			"stateStr" : "PRIMARY",
@@ -85,7 +85,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 		{
 			"_id" : 1,
 			"name" : "mongo2:27017",
-			"ip" : "172.31.38.176",
+			"ip" : "172.31.46.189",
 			"health" : 1,
 			"state" : 2,
 			"stateStr" : "SECONDARY",
@@ -111,9 +111,9 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 			"configVersion" : 1
 		},
 		{
-			"_id" : 3,
+			"_id" : 2,
 			"name" : "mongo3:27017",
-			"ip" : "172.31.45.53",
+			"ip" : "172.31.43.169",
 			"health" : 1,
 			"state" : 2,
 			"stateStr" : "SECONDARY",
@@ -187,7 +187,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 			"votes" : 1
 		},
 		{
-			"_id" : 3,
+			"_id" : 2,
 			"host" : "mongo3:27017",
 			"arbiterOnly" : false,
 			"buildIndexes" : true,
@@ -219,7 +219,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 }
 ```
 
-![alt text](images/img1.png)
+![img1](images/img1.png)
 
 ### rs.status() - second output
 
@@ -283,7 +283,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 		{
 			"_id" : 0,
 			"name" : "mongo1:27017",
-			"ip" : "172.31.41.232",
+			"ip" : "172.31.38.169",
 			"health" : 0,
 			"state" : 8,
 			"stateStr" : "(not reachable/healthy)",
@@ -301,7 +301,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 			"lastHeartbeat" : ISODate("2019-10-31T22:12:19.508Z"),
 			"lastHeartbeatRecv" : ISODate("2019-10-31T22:10:20.913Z"),
 			"pingMs" : NumberLong(0),
-			"lastHeartbeatMessage" : "Error connecting to db1:27017 (172.31.41.232:27017) :: caused by :: Connection refused",
+			"lastHeartbeatMessage" : "Error connecting to db1:27017 (172.31.38.169:27017) :: caused by :: Connection refused",
 			"syncingTo" : "",
 			"syncSourceHost" : "",
 			"syncSourceId" : -1,
@@ -311,7 +311,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 		{
 			"_id" : 1,
 			"name" : "mongo2:27017",
-			"ip" : "172.31.38.176",
+			"ip" : "172.31.46.189",
 			"health" : 1,
 			"state" : 1,
 			"stateStr" : "PRIMARY",
@@ -332,9 +332,9 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 			"lastHeartbeatMessage" : ""
 		},
 		{
-			"_id" : 3,
+			"_id" : 2,
 			"name" : "mongo3:27017",
-			"ip" : "172.31.45.53",
+			"ip" : "172.31.43.169",
 			"health" : 1,
 			"state" : 2,
 			"stateStr" : "SECONDARY",
@@ -408,7 +408,7 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 			"votes" : 1
 		},
 		{
-			"_id" : 3,
+			"_id" : 2,
 			"host" : "mongo3:27017",
 			"arbiterOnly" : false,
 			"buildIndexes" : true,
@@ -440,4 +440,4 @@ Forked from [gestalt8003](https://github.com/gestalt8003/chat-app)
 }
 ```
 
-![alt text](images/img2.png)
+![img2](images/img2.png)
