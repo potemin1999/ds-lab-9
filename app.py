@@ -5,11 +5,11 @@ from exceptions import InvalidLoginError
 from flask import Flask, render_template, url_for, session, redirect, request, escape
 app = Flask(__name__)
 app.debug = True
-app.secret_key = b'JPtUKpetQiyfzGpBS5SM' # yeah, i don't care. hack me
+app.secret_key = b'JPtUKpetQiyfzGpBS5SM'
 
 # Establish connection to the database
 from database import Connection
-db = Connection(app, 'localhost', 27017)
+db = Connection(app, 'mongo1,mongo2,mongo3', 27017)
 
 # Initialize chatlogger
 from chatlog import Logger
